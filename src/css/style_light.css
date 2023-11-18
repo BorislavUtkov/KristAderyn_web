@@ -1,0 +1,180 @@
+
+
+
+body {
+    margin: 0px;
+    background-color: aliceblue;
+    min-width: 700px;
+
+}
+/*________________*/
+/*                */
+/*    Header      */
+/*________________*/
+#header {
+    width: 100%;
+    height: 120px;
+    background-color: rgb(235, 234, 231);
+
+}
+#upper_header {
+    width: 100%;
+    height:50% ;
+    padding-bottom: 2px;
+    border-bottom: 1px solid;
+    border-color:rgb(218, 218, 218);
+    
+
+}
+#lower_header {
+    width: 100%;
+    height: 50%;
+    background-color: rgb(235, 234, 231);
+}
+#header_middle {
+    width: 60%;
+    height: 100%;
+    float: left;
+
+}
+#header_left {
+    width: 20%;
+    height: 100%;
+    float: left;
+
+}
+#header_right {
+    width: 20%;
+    height: 100%;
+    float: right;
+}
+
+div#header_middle img{
+    height: 100%;
+    background-color: aliceblue;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+}
+div#lower_header div#header_middle{
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.header_btn_link{
+    float: left;
+    width: auto;
+    width: calc(100%/5); /*5 - кол-во кнопок в шапке*/
+    height: 100%;
+
+}
+.header_btn_link a{
+    padding-top: 20px;   
+    width: 100%;        
+    height: 40px ;
+    display: block;
+    text-decoration: none;
+}
+.header_btn_link p{
+    margin: 0;    
+    width: auto;
+    text-align: center;
+    color:rgb(100, 100, 100);
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.header_btn_link a:hover{
+    background-color: rgb(230, 230, 230);
+    border-radius: 1px;
+
+}
+/*
+========================================================================
+========================================================================
+========================================================================
+*/
+#div_1{
+    height: auto;
+    margin-bottom: 15px;
+    font-size: large;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align:center;   
+
+}
+#div_1 img{
+    width: 100%;
+}
+/*
+========================================================================
+========================================================================
+========================================================================
+*/
+#div_2{
+    width: 100%;
+    height: 860px;
+    background-image: url('/src/img/Forest.jpg') ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 20px;
+}
+.blur_block{
+    width: 100%;
+    height: 100%;
+}
+#div_2 img{
+    /* width: 100%; */
+}
+.div_2_head{
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    color:whitesmoke;
+    text-shadow: grey 1px 1px;
+}
+#div_2_img_1{
+    margin-top: 30px;
+    margin-left: 50px;
+    background-image: url('/src/img/Krist_with_art.jpg') ;
+    height: 80%;
+    width: 40%; 
+    backdrop-filter: none;
+    background-size: contain;
+    background-repeat: no-repeat;
+    float: left;
+}
+#div_2_img_1 span{
+    position: relative;
+    top: 30%;
+    left: 40%;
+    text-align: justify;
+    display: block;
+    width: 40%;
+    margin-right:8px;
+    margin-top: 30px;
+    color: azure;
+    font-style: italic;
+    font-family:sans-serif;
+    font-size:small;
+    line-height: 1.7;
+    float: left; 
+    overflow: hidden;
+}
+#div_2_img_2
+{
+    float: right;
+    margin-right: 10%;
+}
+#div_2_img_2 img
+{
+    float: right;
+    width: 500px;
+    height: auto;
+}
+/*
+========================================================================
+========================================================================
+========================================================================
+*/
