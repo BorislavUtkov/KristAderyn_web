@@ -128,7 +128,7 @@ div#lower_header div#header_middle{
     height: 100%;
 }
 #div_2 img{
-    /* width: 100%; */
+    width: 100%;
 }
 .div_2_head{
     text-align: center;
@@ -137,14 +137,13 @@ div#lower_header div#header_middle{
     text-shadow: grey 1px 1px;
 }
 #div_2_img_1{
-    height: 900px;
+    height: auto;
     margin-top: 30px;
     margin-left: 50px;
     margin-bottom: 20px;
     background-image: url('/src/img/Krist_with_art.jpg') ;
-    /* min-height: 550px; */
     min-width: 392px;
-    width: 60%; 
+    width: 40%; 
     backdrop-filter: none;
     background-size: contain;
     background-repeat: no-repeat;
